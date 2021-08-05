@@ -49,10 +49,9 @@ input:focus,textarea:focus {
     margin: 2px;
 }
 button{
-    width: 150px;
     background-color: rgb(12, 73, 88);
-    color: white;
     font-size: 18px;
     border: none;
     border-radius: 5px;
+    color:white;
 }
