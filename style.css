@@ -10,7 +10,7 @@ body{
 }
 
 .input-fields input,textarea{
-    width: 100%;
+    width: 98%;
     height: 40px;
     margin: 2px;
 }

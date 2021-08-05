@@ -1,3 +1,6 @@
+const body = document.querySelector("body");
+body.style.backgroundColor = "black";
+
 const btn = document.querySelector("button");
 btn.style.cursor = "pointer";
 btn.style.width = "150px";
@@ -25,7 +28,18 @@ let Academic;
 TextEditor(input["academics"]).then(nEditor=>{
   Academic = nEditor
 })
-
+let Projects;
+TextEditor(input["projects"]).then(nEditor=>{
+    Projects = nEditor
+})
+let Achievements;
+TextEditor(input["achievements"]).then(nEditor=>{
+    Achievements = nEditor
+})
+let Skills;
+TextEditor(input["skills"]).then(nEditor=>{
+    Skills = nEditor
+})
 
 
 function toggle(){
